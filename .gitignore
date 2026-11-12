@@ -1,0 +1,20 @@
+# Backup documentation
+*.backup.md
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python generated files
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs
+*.log
+
+# Local system files
+.DS_Store
+Thumbs.db
